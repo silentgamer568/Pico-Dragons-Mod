@@ -8,8 +8,8 @@ import net.silentgamer568.picodragon.PicoDragon;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item APPLE_JUICE = registerItem("apple_juice",
-            new Item(new FabricItemSettings().food(ItemGroup.FOOD)));
+    public static final Item PICONTROLLER = registerItem("picontroller",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 
     private static Item registerItem(String name, Item item) {
@@ -17,6 +17,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        PicoDragon.LOGGER.info("Registering Mod Items for " + PicoDragon.MOD_ID)
+        PicoDragon.LOGGER.info("Registering Mod Items for " + PicoDragon.MOD_ID);
     }
 }
