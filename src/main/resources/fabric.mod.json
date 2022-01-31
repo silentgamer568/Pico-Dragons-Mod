@@ -4,9 +4,9 @@
   "version": "${version}",
 
   "name": "Pico Dragons Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A mod that adds pico dragons to minecraft!",
   "authors": [
-    "silentg"
+    "silentgamer568"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.silentg.picodragon.PicoDragon"
+      "net.silentgamer568.picodragon.PicoDragon"
     ]
   },
   "mixins": [
