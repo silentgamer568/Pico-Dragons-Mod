@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "picodragon:block/pico_dragon_block"}
+  }
+}

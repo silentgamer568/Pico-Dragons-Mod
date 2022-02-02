@@ -1,6 +1,7 @@
 package net.silentgamer568.picodragon;
 
 import net.fabricmc.api.ModInitializer;
+import net.silentgamer568.picodragon.block.ModBlocks;
 import net.silentgamer568.picodragon.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,5 +17,7 @@ public class PicoDragon implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }
